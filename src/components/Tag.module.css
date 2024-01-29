@@ -1,0 +1,28 @@
+.tagContainer {
+  display: flex;
+  border: 1px solid var(--va-main);
+  border-radius: 50px;
+  justify-content: center;
+  text-align: center;
+  max-width: 126px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 10px;
+  color: var(--va-main);
+  margin: 14px 0;
+  font-weight: bold;
+}
+
+.tagContainer:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .tagContainer {
+    font-size: 14px;
+    padding: 0 8px;
+    margin: 12px 0;
+  }
+}
